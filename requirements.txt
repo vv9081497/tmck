@@ -7,7 +7,7 @@ uvicorn[standard]>=0.27
 pydantic>=2.5
 curl_cffi>=0.16.0,<0.17
 httpx>=0.26
-
+gunicorn>=22.0.0
 # ── Telegram notification bot ──────────────────────────────────────
 # NOTE: must be `python-telegram-bot` (NOT `telegram` — that is a
 # different unrelated package that causes "cannot import name Update").
