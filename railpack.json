@@ -1,5 +1,5 @@
 {
   "deploy": {
-    "startCommand": "gunicorn api:app --bind 0.0.0.0:$PORT"
+    "startCommand": "python -m gunicorn api:app --bind 0.0.0.0:$PORT"
   }
 }
