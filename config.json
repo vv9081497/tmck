@@ -1,0 +1,7 @@
+{
+  "TM_WARM_ENABLED": 0,
+  "MAX_CHECKS_PER_SITE": 5,
+  "SITE_PAUSE_SECONDS": 60,
+  "SITE_DEAD_COOLDOWN_SECONDS": 300,
+  "NOTE": "TM_WARM_ENABLED 0/1 (ThreatMetrix browser warm-up per checkout). MAX_CHECKS_PER_SITE=5 then pause SITE_PAUSE_SECONDS=60. A site returning 'server error' is cooled SITE_DEAD_COOLDOWN_SECONDS=300."
+}
