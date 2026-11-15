@@ -1,5 +1,5 @@
 {
   "deploy": {
-    "startCommand": "gunicorn api:app --bind 0.0.0.0:8080"
+    "startCommand": "gunicorn api:app --bind 0.0.0.0:$PORT"
   }
 }
